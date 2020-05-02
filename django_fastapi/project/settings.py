@@ -49,6 +49,17 @@ DATABASES = {
     }
 }
 
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.postgresql_psycopg2",
+#         "NAME": "postgres",
+#         "USER": "postgres",
+#         "PASSWORD": "",
+#         "HOST": "localhost",
+#         "PORT": "5432",
+#     }
+# }
+
 AUTH_PASSWORD_VALIDATORS = [
     {
         "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"
@@ -59,6 +70,11 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-STATIC_URL = "/static/"
+STATIC_URL = "/django/static/"
+
+STATICFILES_FINDERS = (
+    "django.contrib.staticfiles.finders.FileSystemFinder",
+    "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+)
 
 PROJECT_NAME = "django-fastapi-project"
