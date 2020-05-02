@@ -1,6 +1,6 @@
 # django-fastapi-example
 
-This is just an experiment to demonstrate one potential way of running FastAPI with Django. It won't be updated.
+This is just an experiment to demonstrate one potential way of running FastAPI with Django. It won't be updated, and if you're interested in using FastAPI with Django, then you should just use this for inspiration.
 
 ## Setup
 
