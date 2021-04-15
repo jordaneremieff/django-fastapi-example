@@ -1,5 +1,7 @@
 # django-fastapi-example
 
+Another Django + FastAPI example can be found here: https://github.com/jordaneremieff/aeroplane/
+
 This is an experiment to demonstrate one potential way of running FastAPI with Django. It won't be actively maintained. If you're interested in using FastAPI with Django, then you should just use this for inspiration.
 
 ## Setup
